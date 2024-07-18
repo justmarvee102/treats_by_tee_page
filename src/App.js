@@ -4,13 +4,6 @@ import ImageSliders from './components/ImageSliders';
 import { images } from './constants';
 import './App.scss';
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './components/Home'; // Adjust path as necessary
-import About from './components/About'; // Adjust path as necessary
-import Work from './components/Work'; // Adjust path as necessary
-import Skills from './components/Skills'; // Adjust path as necessary
-import Contact from './components/Contact'; // Adjust path as necessary
-
 const slide = [
   images.treat,
   images.treats,
@@ -43,16 +36,7 @@ const slide = [
 export default function App() {
   return (
     <div className="app">
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/work" component={Work} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
-      </Router>
+      <Navbar />
       <ImageSliders autoSlide autoSlideInterval={5000}>
         {slide.map((image, index) => (
           <img
