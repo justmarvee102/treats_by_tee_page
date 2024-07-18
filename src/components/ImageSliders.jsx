@@ -282,14 +282,18 @@ function ImageSliders({
               boxShadow: '0 10px 20px rgba(0, 0, 0, 0.15)',
               rotate: 10,
               scale: 1.05,
-              backgroundColor: '#f0f0f0',
+              backgroundColor: 'peachpuff',
             }}
             whileTap={{
               scaleX: -1,
               rotate: 10,
               y: -10,
               boxShadow: '0 10px 20px rgba(0, 0, 0, 0.15)',
-              backgroundColor: '#f0f0f0',
+              backgroundColor: 'peru',
+            }}
+            whileFocus={{
+              scale: 1.2,
+              boxShadow: '0 10px 20px palegrey',
             }}
             animate="visible"
             style={{ cursor: 'pointer' }}
@@ -317,14 +321,14 @@ function ImageSliders({
               boxShadow: '0 10px 20px rgba(0, 0, 0, 0.15)',
               rotate: 10,
               scale: 1.05,
-              backgroundColor: '#f0f0f0',
+              backgroundColor: 'lightyellow',
             }}
             whileTap={{
               scaleX: -1,
               rotate: 10,
               y: -10,
               boxShadow: '0 10px 20px rgba(0, 0, 0, 0.15)',
-              backgroundColor: '#f0f0f0',
+              backgroundColor: 'darkgoldenrod',
             }}
             animate="visible"
             style={{ cursor: 'pointer' }}
@@ -352,14 +356,14 @@ function ImageSliders({
               boxShadow: '0 10px 20px rgba(0, 0, 0, 0.15)',
               rotate: 10,
               scale: 1.05,
-              backgroundColor: '#f0f0f0',
+              backgroundColor: 'blanchedalmond',
             }}
             whileTap={{
               scaleX: -1,
               rotate: 10,
               y: -10,
               boxShadow: '0 10px 20px rgba(0, 0, 0, 0.15)',
-              backgroundColor: '#f0f0f0',
+              backgroundColor: 'darksalmon',
             }}
             animate="visible"
             style={{ cursor: 'pointer' }}
@@ -387,14 +391,14 @@ function ImageSliders({
               boxShadow: '0 10px 20px rgba(0, 0, 0, 0.15)',
               rotate: 10,
               scale: 1.05,
-              backgroundColor: '#f0f0f0',
+              backgroundColor: 'lemonchiffon',
             }}
             whileTap={{
               scaleX: -1,
               rotate: 10,
               y: -10,
               boxShadow: '0 10px 20px rgba(0, 0, 0, 0.15)',
-              backgroundColor: '#f0f0f0',
+              backgroundColor: 'darkkhaki',
             }}
             animate="visible"
             style={{ cursor: 'pointer' }}
